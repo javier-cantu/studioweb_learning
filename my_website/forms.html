@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chapter 6, HTML Forms</title>
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+
+        <form name="login" action="process-form.php" method="get">
+            User name:
+            <input type="text" name="username" size="40">
+            <br>
+            Password:
+            <input type="password" name="password" size="12">
+            <br>
+            Favorite car:
+            <select name="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+            <br>
+            Comments:
+            <br>
+            <textarea name="comments" rows="10" cols="20"></textarea>
+            <br>
+            <input type="radio" name="vehicle" value="Bike">I have a bike
+            <input type="radio" name="vehicle" value="Car">I have a Car.
+            <br>
+            <input type="radio" name="vehicle2" value="Boat">I have a boat
+            <input type="radio" name="vehicle2" value="Rocket">I have a Rocket.
+            <br>
+            <input type="submit">
+        </form>
+
+        <form name="signup">
+
+        </form>
+
+    </body>
+</html>
