@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chapter 7, HTML Tables</title>
+
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>HTML Tables</h1>
+    <table>
+        <tfoot>
+            <tr>
+                <td colspan="3">My favorite bands in 2024</td>
+            </tr>
+        </tfoot>
+        <thead>
+            <tr>
+                <th>Band name</th>
+                <th>Order</th>
+                <th>Music Style</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Beatles</td>
+                <td>#1 Fav</td>
+                <td>Psychedelicc Rock</td>
+            </tr>
+            <tr>
+                <td>Led Zeppelin</td>
+                <td>#2 Fav</td>
+                <td>Hard Rock</td>
+            </tr>
+            <tr>
+                <td>Nirvana</td>
+                <td>#3 Fav</td>
+                <td>Grunge</td>
+            </tr>
+            <tr>
+                <td>Amy Winehouse</td>
+                <td>#4 Fav</td>
+                <td>Soul, Jazz</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Table #2</h2>
+
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
